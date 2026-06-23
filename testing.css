@@ -1,0 +1,190 @@
+html {
+    z-index: 0;
+    background-color: white;
+}
+/* Header */
+nav.dropdown a#header-container {
+    z-index: 1;
+    position: fixed;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 189px;
+    background-color: rgb(184, 184, 184);
+    /*background-image: url("testing.header.png")*/
+}
+
+nav.dropdown button#header-collapse {
+    z-index: 2;
+    position: fixed;
+    padding: 5px 20px;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top: 2px dashed black;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0e7;
+    left: 552px;
+    top: 161px;
+}
+nav.dropdown button#header-collapse:hover {
+    cursor: pointer;
+    background-color: rgb(143, 142, 142);
+}
+
+.breadcrumbs {
+    z-index: 2;
+    position: fixed;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    height: 28px;
+    padding: 2px 60px;
+    background-color: #b1b1b1e7;
+    text-align: center;
+}
+.breadcrumbs:hover {
+    background-color: #f0f0f0e7;
+}
+#home {
+    top: 155px;
+    left: 0px;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-top: 2px solid black;
+    border-right: 3px solid black;
+    border-bottom-left-radius: 00px;
+    border-top-left-radius: 20px;
+}
+#sell {
+    top: 155px;
+    left: 182px;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-top: 2px solid black;
+    border-right: 3px solid black;
+}
+#contact {
+    top: 155px;
+    left: 342px;
+    padding: px 56px;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 20px;  
+}
+
+#search {
+    z-index: 2;
+    position: fixed;
+    top: 155px;
+    left: 615px;
+    height: 36px;
+    width: 560px;
+    padding: 0px 20px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top-left-radius: 20px;
+    outline: none;
+}
+
+nav.dropdown a#divider {
+    z-index: 2;
+    position: fixed;
+    height: 189px;
+    left: 1173px;
+    width: 182px;
+    top: 0px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(184, 184, 184);
+}
+
+.breadcrumbs2 {
+    z-index: 2;
+    position: fixed;
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    padding: 5px 9px;
+    text-align: center;
+}
+.breadcrumbs2:hover {
+    font-weight: 900;
+}
+#account {
+    left: 1226px;
+    top: 25px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.heading {
+    z-index: 2;
+    position: fixed;
+    font-size: 90px;
+    font-weight: 900;
+    top: 25px;
+
+}
+#heading {
+    left: 150px;
+    color: rgb(100, 100, 100);
+}
+#heading2 {
+    left: 154px;
+    color: white;
+}
+
+nav.filter a#filter-container {
+    z-index: 1;
+    position: fixed;
+    top: 189px;
+    left: 0px;
+    height: 450px;
+    width: 300px;
+    border-right: 3px solid black;
+    border-top: 2px solid black;
+    border-bottom: 3px solid black;
+    background-color: rgb(184, 184, 184);
+}
+
+#title {
+    z-index: 2;
+    position: fixed;
+    font-size: 45px;
+    font-weight: 500;
+    top: 220px;
+    left: 91px;
+    color: black;
+    text-decoration: underline;
+}
+
+nav.filter button#filter-collapse {
+    z-index: 1;
+    position: fixed;
+    padding: 5px 20px;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 16px;
+    border-top: 2px dashed black;
+    border-left: 2px dashed black;
+    border-bottom: 2px dashed black;
+    border-right: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0e7;
+    left: 246px;
+    top: 189px;
+}
+nav.filter button#filter-collapse:hover {
+    cursor: pointer;
+    background-color: rgb(143, 142, 142);
+}
