@@ -1,25 +1,25 @@
 <html>
-    <title="Practice 6.21.2026"></title>
-    <link href="style.css" rel="stylesheet">
-    <head>
-        <nav class="header">
-            <a id="link">Website.com</a>
-            <a id="title">Title</a>
-            <a id="home" href="home.html">Home</a>
-            <a id="sell" href="home.html">Sell</a>
-            <a id="donate" href="home.html">Donate</a>
-            <a id="search"><input type=text name="search" placeholder="  Search"></a>
-            <a id="magnifyingglass"><img src="header.magnifyingglass.png"></a>
-            <a id="retract"><img src="header.retract.png"></a>
+    <link href="testing.css" rel="stylesheet">
+    <header>
+        <nav class="dropdown">
+            <a id="header-container"></a>
+            <button id="header-collapse">↑</button>
+            <a href="home.html" class="breadcrumbs" id="home">Home</a>
+            <a href="sell.html" class="breadcrumbs" id="sell">Sell</a>
+            <a href="contact.html" class="breadcrumbs" id="contact">Contact</a>
+            <input type="text" placeholder=" Search" name="search" id="search">
+            <a id="divider"></a>
+            <a href="account.html" class="breadcrumbs2" id="account">My Account</a>
+            <a class="heading" id="heading">Computer Parts Store</a>
+            <a class="heading" id="heading2">Computer Parts Store</a>
         </nav>
-        <nav class="extra">
-            <a id="myaccount" href="myaccount.index">My Account</a>
-        </nav>
-    </head>
+    </header>
     <body>
         <nav class="filter">
-           <a id="filter"></a> 
-           <a id="retract"><img src="filter.retract.png"></a>
+            <a id="filter-container"></a>
+            <button id="filter-collapse">←</button>
+            <a class="title" id="title">Filter</a>
         </nav>
     </body>
-</html> 
+    <script src="testing.js"></script>
+</html>
